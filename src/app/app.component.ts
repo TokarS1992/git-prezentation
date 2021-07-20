@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'git-presentation';
   newValue = false;
+  public newHandler() {
+    console.log('some changes');
+  }
 }
 
